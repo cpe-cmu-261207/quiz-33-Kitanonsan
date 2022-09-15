@@ -14,7 +14,12 @@ export default function Home() {
         style={{ maxWidth: "700px", backgroundColor: "#242526" }}
         className="mx-auto p-3 rounded rounded-3 shadow-sm"
       >
-        <PostOwner />
+        <PostOwner
+          name={"Kitanon Santabut 640610619"}
+          status={"NewJeans น่ารักจังเลยคร้าบบบ ❤️🥰💞"}
+          likeNum={100}
+          img={"/profileImages/NewJeans.webp"}
+        />
         {comments.map((x, i) => (
           <Comment
             username={x.username}
